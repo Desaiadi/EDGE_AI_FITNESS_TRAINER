@@ -1,0 +1,108 @@
+# Edge AI Fitness Trainer - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific
+*.db
+*.sqlite
+*.sqlite3
+fitness_trainer.db
+
+# Camera/Video temp files
+*.mp4
+*.avi
+temp_video/
+
+# Model files (if large)
+models/*.onnx
+models/*.pb
+models/*.tflite
+
+# Build artifacts
+dist/
+build/
+*.exe
+*.msi
+
+# Logs
+*.log
+logs/
+
+# Configuration files with sensitive data
+config_local.json
+.env.local
+
+# NPU specific
+*.qnn
+*.dlc
+
+# Temporary files
+temp/
+tmp/
