@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+
+d!/usr/bin/env python3
 """
 Simple camera test to verify camera access
 """

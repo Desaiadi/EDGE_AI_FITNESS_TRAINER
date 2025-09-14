@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 EdgeCoach Simple Demo - Works without heavy dependencies

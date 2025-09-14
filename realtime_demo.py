@@ -1,3 +1,6 @@
+
+
+
 #!/usr/bin/env python3
 """
 EdgeCoach Real-time Demo - Shows actual camera input and pose detection
