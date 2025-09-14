@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EdgeCoach - Camera Test</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #1a1a1a; 
+            color: white; 
+            margin: 0; 
+            padding: 20px;
+            text-align: center;
+        }
+        h1 { 
+            color: #00ff00; 
+            margin-bottom: 20px;
+        }
+        img { 
+            border: 2px solid #00ff00; 
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+        .status {
+            margin: 20px 0;
+            padding: 10px;
+            background: #333;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎥 EdgeCoach - Camera Test</h1>
+    <p>This shows a saved camera frame to test display</p>
+    
+    <div class="status">
+        <p>If you can see the image below, the display is working!</p>
+    </div>
+    
+    <img src="camera_frames/frame_001.jpg" alt="Camera Test Frame" id="test-image">
+    
+    <div class="status">
+        <p>This is your actual camera feed! The web display works.</p>
+        <p>Now we need to fix the live streaming.</p>
+    </div>
+</body>
+</html>
